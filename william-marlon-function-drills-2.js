@@ -26,3 +26,28 @@ console.log(beyond(20));
 console.log(beyond(-20));
 console.log(beyond(0));*/
 
+/*function decode(words){
+  let array = words.split(' ');
+  let codeResult = [];
+  for(let i = 0; i < array.length; i++){
+    if(array[i][0] === 'a'){
+      codeResult.push(array[i][1]);
+    }
+    else if(array[i][0] === 'b'){
+      codeResult.push(array[i][2]);
+    }
+    else if(array[i][0] === 'c'){
+      codeResult.push(array[i][3]);
+    }
+    else if(array[i][0] === 'd'){
+      codeResult.push(array[i][4]);
+    }
+    else{
+      codeResult.push(' ');
+    }
+  }    
+  return codeResult.join('');
+}
+
+console.log(decode('craft block argon meter bells brown croon droop'));*/
+
