@@ -79,3 +79,41 @@ console.log(decode('craft block argon meter bells brown croon droop'));*/
   }
 }
 console.log(howManyDays('Marlon'));*/
+
+
+
+/*function rockPaperScissors(num){
+  const randomNo = Math.floor(Math.random() * 3) + 1;
+  if(num < 1 || num > 3){
+    throw new Error('Not a valid option');
+  }
+  if (num === randomNo){
+    return 'Tie game, the computer chose: ' + randomNo;
+  }
+  if (num === 1){
+    if(randomNo === 2){
+      return 'You lose, the computer chose: ' + randomNo;
+    }
+    else if(randomNo === 3){
+      return 'You win, the computer chose: ' + randomNo;
+    }
+  if (num === 2){
+      if (randomNo === 1){
+        return 'You win, the computer chose: ' + randomNo;
+      }
+      else if (randomNo === 3){
+        return 'You lose, the computer chose: ' + randomNo;
+      }
+    if (num === 3){
+    if (randomNo === 1){
+          return 'You lose, the computer chose: ' + randomNo;
+        }
+        else if(randomNo === 2){
+          return 'You win, the computer chose: ' + randomNo;
+        }
+      }
+    } 
+  }
+}
+
+console.log(rockPaperScissors(4));*/
